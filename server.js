@@ -5,6 +5,8 @@ var express = require('express');
 var reloader = require('connect-livereload')
 var app = express();
 
+var port = process.env.PORT || 9001;
+
 
 app.use(cors());
 
@@ -20,7 +22,7 @@ app.use(function(req, res, next) {
 	next();
 });
 
-app.listen(process.env.PORT || 9000, function(){
+app.listen(port, function(){
   console.log('App Listening on localhost:9000');
 });
 
