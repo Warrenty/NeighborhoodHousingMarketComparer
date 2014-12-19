@@ -20,7 +20,7 @@ app.use(function(req, res, next) {
 	next();
 });
 
-app.listen(9000, function(){
+app.listen(process.env.PORT || 9000, function(){
   console.log('App Listening on localhost:9000');
 });
 
