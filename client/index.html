@@ -1,0 +1,51 @@
+<html ng-app="zillowApp">
+<head>
+
+	<meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- build:css -->
+  <!-- bower:css -->
+  <link rel="stylesheet" href="bower_components/bootstrap-material-design/dist/css/material.css" />
+  <link rel="stylesheet" href="bower_components/bootstrap-material-design/dist/css/ripples.css" />
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+  <!-- endbower -->
+  <!-- endbuild -->
+
+<!-- inject:css -->
+<link rel="stylesheet" href="app/styles/content-style.css">
+<link rel="stylesheet" href="app/styles/styles.css">
+<!-- endinject -->
+</head>
+
+<body>
+	
+	<div class="bs-component">
+	<nav class="navbar navbar-primary navbar-fixed-top" role="navigation" data-ng-include="'app/partials/navbar.html'">
+	</nav>
+	</div>
+
+	<div ui-view id="view"></div>
+  
+  <script type="text/javascript" src="bower_components/xmltojson/lib/xmltojson.js"></script>
+
+  <!-- build:js -->
+  <!-- bower:js -->
+  <script src="bower_components/jquery/dist/jquery.js"></script>
+  <script src="bower_components/angular/angular.js"></script>
+  <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+  <script src="bower_components/bootstrap-material-design/dist/js/material.js"></script>
+  <script src="bower_components/bootstrap-material-design/dist/js/ripples.js"></script>
+  <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+  <!-- endbower -->
+  <!-- endbuild -->
+
+  <!-- inject:js -->
+  <script src="app/app.js"></script>
+  <script src="app/controllers/compareController.controller.js"></script>
+  <script src="app/controllers/searchController.controller.js"></script>
+  <script src="app/services/services.js"></script>
+  <!-- endinject -->
+</body>
+</html>
