@@ -1,0 +1,61 @@
+body {
+  /*background-color: #2D2D2D;*/
+  padding-top: 71px;
+  background: linear-gradient(#f1f1f1, #f5f5f5);
+}
+
+.box1 {
+  box-shadow : 2px 4px 6px rgba(0,0,0,.3);
+  height : 35px;
+  width:100%;
+}
+
+.box2 {
+  box-shadow : 2px 4px 6px rgba(0,0,0,.3);
+  height : 800px;
+  width:100%;
+}
+
+.panel {
+  box-shadow : 2px 4px 6px rgba(0,0,0,.3);
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.bg-grey {
+  background-color: grey;
+}
+
+.bg-light {
+  background-color: lightgrey;
+}
+
+.scroll {
+	overflow: scroll;
+}
+
+.col-xs-2 {
+	min-width: 143px;
+}
+
+.col-xs-4 {
+	min-width: 279px;
+}
+
+#view {
+	min-width: 992px;
+}
+
+.text{
+	font-size: 180%;
+	font-weight: bold;
+	text-align: center;
+}
+
+.text-small{
+	font-size: 110%;
+	font-weight: bold;
+	text-align: center;
+}
